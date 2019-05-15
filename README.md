@@ -1,7 +1,13 @@
 # postcss-hairline
 
-[![NPM version][npm-image]][npm-url] [![changelog][changelog-image]][changelog-url] [![license][license-image]][license-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][ci-status-image]][ci-status-url] [![Coverage Status][coverage-status-image]][coverage-status-url] [![Known Vulnerabilities][vulnerabilities-status-image]][vulnerabilities-status-url] [![changelog][changelog-image]][changelog-url] [![license][license-image]][license-url]
 
+[vulnerabilities-status-image]: https://snyk.io/test/npm/postcss-hairline/badge.svg
+[vulnerabilities-status-url]: https://snyk.io/test/npm/postcss-hairline
+[ci-status-image]: https://travis-ci.org/ufologist/postcss-hairline.svg?branch=master
+[ci-status-url]: https://travis-ci.org/ufologist/postcss-hairline
+[coverage-status-image]: https://coveralls.io/repos/github/ufologist/postcss-hairline/badge.svg?branch=master
+[coverage-status-url]: https://coveralls.io/github/ufologist/postcss-hairline
 [npm-image]: https://img.shields.io/npm/v/postcss-hairline.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/postcss-hairline
 [license-image]: https://img.shields.io/github/license/ufologist/postcss-hairline.svg

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transform border with border-radius 1`] = `
+".px {
+    background-color: #aaa;
+    height: 100px; /* hairline */ /* hairline */
+    border-radius: 10px;
+    /* no */
+    position: relative;
+}
+
+.rem {
+    background-color: #aaa;
+    height: 100px; /* hairline */
+    border-radius: 0.5rem; /* hairline */ position: relative;
+}
+
+.before {
+    background-color: #aaa;
+    height: 100px; /* hairline-before */
+    border-radius: 0.5rem; /* hairline */ position: relative;
+}
+
+.after {
+    background-color: #aaa;
+    height: 100px; /* hairline-after */ /* hairline */
+    border-radius: 10px;
+    /* no */
+    position: relative;
+}
+
+.only-border {
+    background-color: #aaa;
+    height: 100px; /* hairline */ position: relative;
+}
+
+.px::after {
+    border: 1px solid red;
+    /* no */
+    border-radius: 20px;
+    /* no */
+}
+
+.rem::after {
+    border: 1px solid red;
+    /* no */
+    border-radius: 1rem;
+    /* no */
+}
+
+.before::before {
+    border: 1px solid red;
+    /* no */
+    border-radius: 1rem;
+    /* no */
+}
+
+.after::after {
+    border: 1px solid red;
+    /* no */
+    border-radius: 20px;
+    /* no */
+}
+
+.only-border::after {
+    border-bottom: 1px solid red;
+    /* no */
+}
+
+.px::after,.rem::after,.before::before,.after::after,.only-border::after {
+                content: '';
+                position: absolute;
+                top: -50%;
+                bottom: -50%;
+                left: -50%;
+                right: -50%;
+                -webkit-transform: scale(0.5);
+                        transform: scale(0.5);
+                pointer-events: none;
+            }"
+`;

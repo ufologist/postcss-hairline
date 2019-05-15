@@ -11,7 +11,7 @@ const unitPxReg = /([0-9\.]+)(px)/;
 const unitRemReg = /([0-9\.]+)(rem)/;
 const pseudoReg = /:(?:before|after)$/;
 
-const retina = postcss.plugin('postcss-hairline', (options = {}) => (root) => {
+const hairline = postcss.plugin('postcss-hairline', (options = {}) => (root) => {
     const {
         pxComment = 'no' // 添加注释避免边框宽度被类似 postcss-px2rem 这样的插件转成 rem 单位
     } = options;
@@ -127,4 +127,4 @@ const retina = postcss.plugin('postcss-hairline', (options = {}) => (root) => {
     }
 });
 
-module.exports = retina;
+module.exports = hairline;

@@ -1,0 +1,33 @@
+.px {
+    background-color: #aaa;
+    height: 100px;
+    border: 1px solid red; /* hairline */
+    border-radius: 20px; /* hairline */
+}
+
+.rem {
+    background-color: #aaa;
+    height: 100px;
+    border: 1px solid red; /* hairline */
+    border-radius: 0.5rem; /* hairline */
+}
+
+.before {
+    background-color: #aaa;
+    height: 100px;
+    border: 1px solid red; /* hairline-before */
+    border-radius: 0.5rem; /* hairline */
+}
+
+.after {
+    background-color: #aaa;
+    height: 100px;
+    border: 1px solid red; /* hairline-after */
+    border-radius: 20px; /* hairline */
+}
+
+.only-border {
+    background-color: #aaa;
+    height: 100px;
+    border-bottom: 1px solid red; /* hairline */
+}
