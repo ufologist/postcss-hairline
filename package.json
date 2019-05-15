@@ -1,0 +1,24 @@
+{
+  "name": "postcss-hairline",
+  "version": "1.0.0",
+  "description": "Automatically transform your border to retina hairline",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufologist/postcss-hairline.git"
+  },
+  "keywords": [
+    "hairline",
+    "retina",
+    "1px"
+  ],
+  "author": "Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ufologist/postcss-hairline/issues"
+  },
+  "homepage": "https://github.com/ufologist/postcss-hairline#readme"
+}
