@@ -30,5 +30,12 @@
   },
   "dependencies": {
     "postcss": "^6.0.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
   }
 }
