@@ -106,6 +106,6 @@ require('postcss-hairline')({
 Available options are:
 * `pxComment` (string): border px unit comment. Default: `no`.
 
-## 参考
+## Reference
 
 * [postcss-retina](https://github.com/Ziphwy/postcss-retina)
